@@ -81,7 +81,7 @@ export default function SignupPage() {
               <input
                 type="text"
                 required
-                placeholder="e.g. Aarav Sharma"
+                placeholder="e.g. Nikhil Sharma"
                 value={formData.fullName}
                 onChange={(e) => setFormData({ ...formData, fullName: e.target.value })}
                 className="w-full pl-9 pr-3 py-2.5 rounded-xl bg-slate-50 border border-slate-200 text-slate-900 focus:outline-none focus:ring-2 focus:ring-blue-500/20"
@@ -96,7 +96,7 @@ export default function SignupPage() {
               <input
                 type="email"
                 required
-                placeholder="aarav@iits.edu.in"
+                placeholder="nikhil@iits.edu.in"
                 value={formData.email}
                 onChange={(e) => setFormData({ ...formData, email: e.target.value })}
                 className="w-full pl-9 pr-3 py-2.5 rounded-xl bg-slate-50 border border-slate-200 text-slate-900 focus:outline-none focus:ring-2 focus:ring-blue-500/20"
@@ -193,3 +193,4 @@ export default function SignupPage() {
     </div>
   );
 }
+

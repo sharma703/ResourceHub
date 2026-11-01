@@ -185,7 +185,7 @@ export default function HomePage() {
                   <div className="bg-slate-50 p-3.5 rounded-xl border border-slate-200/60 space-y-2">
                     <div className="flex justify-between text-[11px]">
                       <span className="text-slate-500">Scheduled User:</span>
-                      <span className="font-semibold text-slate-800">Aarav Sharma (Robotics)</span>
+                      <span className="font-semibold text-slate-800">Nikhil Sharma (Robotics)</span>
                     </div>
                     <div className="flex justify-between text-[11px]">
                       <span className="text-slate-500">Conflict Guard:</span>
@@ -435,11 +435,11 @@ export default function HomePage() {
               <div className="flex items-center gap-3 pt-2">
                 <img
                   src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=100"
-                  alt="Aarav"
+                  alt="Nikhil"
                   className="w-10 h-10 rounded-full object-cover"
                 />
                 <div>
-                  <h4 className="text-xs font-bold text-slate-900">Aarav Sharma</h4>
+                  <h4 className="text-xs font-bold text-slate-900">Nikhil Sharma</h4>
                   <p className="text-[10px] text-slate-500">Student, Robotics & AI</p>
                 </div>
               </div>
@@ -452,11 +452,11 @@ export default function HomePage() {
               <div className="flex items-center gap-3 pt-2">
                 <img
                   src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=100"
-                  alt="Dr Priya"
+                  alt="Akanksha"
                   className="w-10 h-10 rounded-full object-cover"
                 />
                 <div>
-                  <h4 className="text-xs font-bold text-slate-900">Dr. Priya Deshmukh</h4>
+                  <h4 className="text-xs font-bold text-slate-900">Akanksha Srivastava</h4>
                   <p className="text-[10px] text-slate-500">Faculty, Electrical Engg</p>
                 </div>
               </div>
@@ -514,3 +514,4 @@ export default function HomePage() {
     </div>
   );
 }
+

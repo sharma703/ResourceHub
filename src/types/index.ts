@@ -140,3 +140,4 @@ export interface UtilizationMetrics {
   mostUsedResources: { id: string; name: string; category: string; bookingCount: number; hoursUtilized: number }[];
   underutilizedResources: { id: string; name: string; category: string; idleDays: number }[];
 }
+

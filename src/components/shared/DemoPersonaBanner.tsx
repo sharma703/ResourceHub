@@ -9,8 +9,8 @@ export default function DemoPersonaBanner() {
   const { role, switchRole, resetDemoData, user } = useAuth();
 
   const roles: { id: UserRole; label: string; name: string; icon: string }[] = [
-    { id: "student", label: "Student", name: "Aarav", icon: "🎓" },
-    { id: "faculty", label: "Faculty", name: "Dr. Priya", icon: "🔬" },
+    { id: "student", label: "Student", name: "Nikhil", icon: "🎓" },
+    { id: "faculty", label: "Faculty", name: "Akanksha", icon: "🔬" },
     { id: "resource_owner", label: "Owner", name: "Prof. Rajesh", icon: "⚙️" },
     { id: "institution_admin", label: "Admin", name: "Dr. Vikram", icon: "🏛️" },
   ];
@@ -57,3 +57,4 @@ export default function DemoPersonaBanner() {
     </div>
   );
 }
+

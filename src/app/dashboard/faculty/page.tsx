@@ -109,7 +109,7 @@ export default function FacultyDashboardPage() {
                 </div>
                 <p className="text-slate-600 italic">“{b.purpose}”</p>
                 <div className="flex items-center gap-3 text-slate-400 text-[11px] pt-0.5">
-                  <span>Researcher: {b.user?.full_name || "Aarav Sharma"}</span>
+                  <span>Researcher: {b.user?.full_name || "Nikhil Sharma"}</span>
                   <span>•</span>
                   <span>{formatDateTime(b.start_time)}</span>
                 </div>
@@ -131,3 +131,4 @@ export default function FacultyDashboardPage() {
     </div>
   );
 }
+

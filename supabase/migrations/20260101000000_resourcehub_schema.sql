@@ -294,3 +294,4 @@ USING (
 CREATE POLICY "Users can insert condition reports for their bookings"
 ON condition_reports FOR INSERT TO authenticated
 WITH CHECK (user_id = auth.uid());
+

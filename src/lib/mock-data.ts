@@ -12,8 +12,8 @@ export const DEMO_INSTITUTION: Institution = {
 export const DEMO_PROFILES: Record<string, Profile> = {
   student: {
     id: "22222222-2222-2222-2222-222222222221",
-    full_name: "Aarav Sharma",
-    email: "student.aarav@iits.edu.in",
+    full_name: "Nikhil Sharma",
+    email: "student.nikhil@iits.edu.in",
     role: "student",
     institution_id: DEMO_INSTITUTION.id,
     institution_name: DEMO_INSTITUTION.name,
@@ -23,8 +23,8 @@ export const DEMO_PROFILES: Record<string, Profile> = {
   },
   faculty: {
     id: "22222222-2222-2222-2222-222222222222",
-    full_name: "Dr. Priya Deshmukh",
-    email: "faculty.priya@iits.edu.in",
+    full_name: "Akanksha Srivastava",
+    email: "faculty.akanksha@iits.edu.in",
     role: "faculty",
     institution_id: DEMO_INSTITUTION.id,
     institution_name: DEMO_INSTITUTION.name,
@@ -448,7 +448,7 @@ export const INITIAL_NOTIFICATIONS: NotificationItem[] = [
     id: "55555555-5555-5555-5555-555555555503",
     user_id: DEMO_PROFILES.resource_owner.id,
     title: "New Booking Request Received",
-    message: "Aarav Sharma requested Universal Robots UR5e for Nov 3, 2026.",
+    message: "Nikhil Sharma requested Universal Robots UR5e for Nov 3, 2026.",
     type: "warning",
     link: "/dashboard/owner",
     is_read: false,
@@ -500,3 +500,4 @@ export const INITIAL_INCIDENTS: Incident[] = [
     created_at: "2026-10-29T16:00:00Z",
   },
 ];
+

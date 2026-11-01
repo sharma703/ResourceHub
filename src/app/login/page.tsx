@@ -11,7 +11,7 @@ import { Layers, ArrowRight, Sparkles, Lock, Mail, ShieldCheck } from "lucide-re
 export default function LoginPage() {
   const router = useRouter();
   const { login, switchRole } = useAuth();
-  const [email, setEmail] = useState<string>("student.aarav@iits.edu.in");
+  const [email, setEmail] = useState<string>("student.nikhil@iits.edu.in");
   const [password, setPassword] = useState<string>("••••••••");
   const [loading, setLoading] = useState<boolean>(false);
   const [error, setError] = useState<string | null>(null);
@@ -79,7 +79,7 @@ export default function LoginPage() {
               className="p-2 bg-white rounded-xl border border-blue-200/80 hover:border-blue-500 text-left hover:shadow-subtle transition-all"
             >
               <span className="font-bold text-slate-900 block">🎓 Student</span>
-              <span className="text-[10px] text-slate-400">Aarav (Robotics)</span>
+              <span className="text-[10px] text-slate-400">Nikhil (Robotics)</span>
             </button>
             <button
               type="button"
@@ -95,7 +95,7 @@ export default function LoginPage() {
               className="p-2 bg-white rounded-xl border border-blue-200/80 hover:border-blue-500 text-left hover:shadow-subtle transition-all"
             >
               <span className="font-bold text-slate-900 block">🔬 Faculty Lead</span>
-              <span className="text-[10px] text-slate-400">Dr. Priya (VLSI)</span>
+              <span className="text-[10px] text-slate-400">Akanksha (VLSI)</span>
             </button>
             <button
               type="button"
@@ -164,3 +164,4 @@ export default function LoginPage() {
     </div>
   );
 }
+

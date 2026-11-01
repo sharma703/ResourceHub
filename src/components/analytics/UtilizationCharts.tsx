@@ -236,3 +236,4 @@ export default function UtilizationCharts({ initialMetrics }: UtilizationChartsP
     </div>
   );
 }
+

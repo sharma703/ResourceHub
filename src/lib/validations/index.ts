@@ -36,3 +36,4 @@ export const conditionReportSchema = z.object({
   notes: z.string().optional(),
   issue_description: z.string().optional(),
 });
+

@@ -298,7 +298,7 @@ export default function OwnerDashboardPage() {
                       {b.status}
                     </span>
                     <span className="text-xs font-semibold text-slate-800">
-                      Applicant: {b.user?.full_name || "Aarav Sharma"}
+                      Applicant: {b.user?.full_name || "Nikhil Sharma"}
                     </span>
                     <span className="text-xs text-slate-400">({b.user?.department || "Student Researcher"})</span>
                   </div>
@@ -601,3 +601,4 @@ export default function OwnerDashboardPage() {
     </div>
   );
 }
+
